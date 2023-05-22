@@ -6,6 +6,7 @@ void main(){
 class BirthdayCard extends StatelessWidget{
   const BirthdayCard({Key? key}) : super(key: key);
 
+  @override
   Widget build(BuildContext context){
     return const MaterialApp(
       home: Scaffold(
